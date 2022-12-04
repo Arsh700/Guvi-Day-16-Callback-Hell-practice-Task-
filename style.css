@@ -1,0 +1,26 @@
+body {
+	min-width: 100%;
+	min-height: 400px;
+	overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#time-container {
+	position: relative;
+	text-align: center;
+	top: 3em;
+	left: 7.5em;
+	font-size: 6em;
+	font-weight: 2em;
+}
+
+#time {
+	position: absolute;
+}
